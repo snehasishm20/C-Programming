@@ -1,6 +1,11 @@
 #include<stdio.h>
 int main()
-{
-  printf("programming can be truely fun!");
-  return 0;
+{int num;
+printf("Enter the number\t");
+scanf("%d",&num);
+if(num<0)
+printf("sign is -");
+else
+printf("sign is +");
+return 0;
 }
